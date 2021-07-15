@@ -166,6 +166,7 @@ header {
 .comments {
   display: flex;
   padding: 0px 24px;
+  justify-content: center;
 }
 .memes_collection {
   list-style-type: none;
@@ -177,10 +178,9 @@ header {
   background: #ffffff;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
+  padding: 36px 16px 16px;
 }
-.comment_details {
-  padding: 46px 20px 24px 20px;
-}
+
 .meme_title {
   color: #2d3e50;
   font-size: 18px;
@@ -243,8 +243,8 @@ header {
   .learn_more {
     padding: 8px 6px;
   }
-  .comment_details {
-    padding: 46px 12px 24px 16px;
+  .memes_collection li {
+    padding: 32px 14px 12px;
   }
 }
 
@@ -270,6 +270,9 @@ header {
   .memes_collection {
     margin: 0px 6px;
   }
+  .memes_collection li {
+    padding: 24px 14px 10px;
+  }
   .memes {
     margin: 108px 32px 0px;
   }
@@ -290,9 +293,7 @@ header {
   .comments {
     padding: 0px;
   }
-  .comment_details {
-    padding: 24px 4px 24px 14px;
-  }
+
   .learn_more {
     padding: 8px 6px;
   }
@@ -395,16 +396,14 @@ header {
     align-items: center;
     padding: 0px;
   }
-  .comment_details {
-    padding: 8px 24px 4px;
-  }
+
   .memes_collection li {
     width: 100%;
     padding: 24px 26px;
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   .headline {
     background-position: -1565px center, 216px center;
   }
@@ -419,9 +418,7 @@ header {
     padding: 0;
     margin-top: 64px;
   }
-  .comment_details {
-    padding: 24px 17px 26px 14px;
-  }
+
   .memes_collection {
     margin: 0px;
   }
